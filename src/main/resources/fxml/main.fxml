@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TabPane?>
+<TabPane maxHeight="333.0" maxWidth="500.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0"
+         prefWidth="500.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8"
+         xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.huatai.controller.MainController">
+  <tabs>
+    <fx:include source="switch_env.fxml" fx:id="switchEnv"/>
+    <fx:include source="env_config.fxml" fx:id="envConfig"/>
+  </tabs>
+</TabPane>
